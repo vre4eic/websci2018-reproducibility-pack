@@ -1,0 +1,12 @@
+[submodule "gender-demo-data"]
+	path = gender-demo-data
+	url = ../gender-demo-data
+[submodule "docker-swish"]
+	path = docker-swish
+	url = ../docker-swish
+[submodule "swish"]
+	path = swish
+	url = ../swish
+[submodule "swipl-devel"]
+	path = swipl-devel
+	url = https://github.com/SWI-Prolog/swipl-devel
