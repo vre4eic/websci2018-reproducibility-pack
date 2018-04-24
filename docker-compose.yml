@@ -8,13 +8,13 @@ services:
 
   gender_rserve:
     restart: always
-    image: swipl/rserve
+    image: vre4eic/rserve_sandbox:vre
     network_mode: "none"
     volumes:
     - gender_r_volume:/rserve
 
   gender_swish_initalize:
-    image: vre4eic/swish
+    image: vre4eic/swish:vre
     volumes:
       - gender_swish_volume:/data
     depends_on:
@@ -24,7 +24,7 @@ services:
 
   gender_swish:
     restart: always
-    image: vre4eic/swish
+    image: vre4eic/swish:vre
     ports:
       - 3052:3050
     volumes:
