@@ -26,8 +26,10 @@ Provided that you have docker and docker-compose set up on your machine, just ru
 [link to vm image to be added]
 
 # Soure code version
-The repo also used git submodules to link to other git repositories with all source code used, run
+The repo contains git submodules linking to other git repositories with source code of other projects used in the paper, run
 ```bash
 git submodule update --init --recursive
 ```
-to populated all source code submodules. This also include the repos to rebuild the docker images used in the docker version.
+to populated all source code submodules. 
+
+The repos to rebuild the docker images used in the docker version are also included.
