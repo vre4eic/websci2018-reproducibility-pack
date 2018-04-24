@@ -1,5 +1,9 @@
 # websci2018-reproducibility-pack
-Repo with materials to reproduce all data analysis, figures and tables of the Web Science 2018 paper: Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament [link to paper will be added asap]
+Repo with materials to reproduce all data analysis, figures and tables of our Web Science 2018 paper: 
+Hollink, L, van Aggelen, A.E, & van Ossenbruggen, J.R. (2018). 
+[Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament](https://ir.cwi.nl/pub/27616) 
+Presented at the ACM Conference on Web Science. doi:10.1145/3201064.3201108
+
 
 # Online version
 The simplest way to rerun the code is to ignore this repo and just point your browser to http://vre4eic.project.cwi.nl/gender/
