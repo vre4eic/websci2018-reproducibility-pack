@@ -1,8 +1,8 @@
 # websci2018-reproducibility-pack
 Repo with materials to reproduce all data analysis, figures and tables of our Web Science 2018 paper: 
-Hollink, L, van Aggelen, A.E, & van Ossenbruggen, J.R. (2018). 
-[Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament](https://ir.cwi.nl/pub/27616) 
-Presented at the ACM Conference on Web Science. doi:10.1145/3201064.3201108
+> Hollink, Laura, Astrid van Aggelen, and Jacco van Ossenbruggen. 
+> [Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament](https://ir.cwi.nl/pub/27616) 
+> ACM Conference on Web Science. May 2018, Amsterdam, The Netherlands. doi:10.1145/3201064.3201108
 
 
 # Online version
