@@ -2,11 +2,13 @@
 Repo with materials to reproduce all data analysis, figures and tables of the Web Science 2018 paper: Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament [link to paper will be added asap]
 
 # Online version
-The simplest way to rerun the code is to ignore this repo and just point your browser to http://media.cwi.nl/gender/
+The simplest way to rerun the code is to ignore this repo and just point your browser to http://vre4eic.project.cwi.nl/gender/
+
 This public swish web server contains all code in an executable notebook style interface.
 
 # Docker version
-This repo contains the materials to rebuild our public swish web server that is also running at http://media.cwi.nl/gender/
+This repo contains the materials to rebuild our public swish web server running at http://vre4eic.project.cwi.nl/gender/ 
+
 Our server is started by running 
 ```bash
 docker-compose up -d
