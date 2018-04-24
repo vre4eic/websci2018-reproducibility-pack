@@ -10,3 +10,6 @@
 [submodule "swipl-devel"]
 	path = swipl-devel
 	url = https://github.com/SWI-Prolog/swipl-devel
+[submodule "rserve-sandbox"]
+	path = rserve-sandbox
+	url = https://github.com/vre4eic/rserve-sandbox.git
