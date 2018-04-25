@@ -1,5 +1,5 @@
 # websci2018-reproducibility-pack
-Repo with materials to reproduce all data analysis, figures and tables of our Web Science 2018 paper: 
+This repository cantains the materials to reproduce all figures, tables and other data analysis results reported in our Web Science 2018 paper: 
 
 Hollink, Laura, Astrid van Aggelen, and Jacco van Ossenbruggen. 
 [Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament](https://ir.cwi.nl/pub/27616). 
