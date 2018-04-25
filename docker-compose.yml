@@ -8,7 +8,7 @@ services:
 
   gender_rserve:
     restart: always
-    image: vre4eic/rserve_sandbox:vre
+    image: vre4eic/rserve-sandbox:vre
     network_mode: "none"
     volumes:
     - gender_r_volume:/rserve
