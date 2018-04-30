@@ -1,29 +1,33 @@
 # websci2018-reproducibility-pack
-This repository cantains the materials to reproduce all figures, tables and other data analysis results reported in our Web Science 2018 paper: 
+This repository contains the materials to reproduce all figures, tables and other data analysis results reported in our Web Science 2018 paper: 
 
 Hollink, Laura, Astrid van Aggelen, and Jacco van Ossenbruggen. 
 [Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament](https://ir.cwi.nl/pub/27616). 
 ACM Conference on Web Science, May 2018, Amsterdam, The Netherlands. doi:10.1145/3201064.3201108
 
+A copy for long time archival has been uploaded to https://doi.org/10.5281/zenodo.1232929
 
 # Online version
-The simplest way to rerun the code is to ignore this repo and just point your browser to http://vre4eic.project.cwi.nl/gender/
+The simplest way to rerun the code for the paper is to ignore this repo and just point your browser to http://vre4eic.project.cwi.nl/gender/p/tables_and_figures_from_paper.swinb
 
-This public swish web server contains all code in an executable notebook style interface.
+This public swish web server contains all code in an executable notebook style interface. We will try to keep this server up and running. In case it is down anyway, below are several options to rebuild the server yourself.
 
 # Docker version
-This repo contains the materials to rebuild our public swish web server running at http://vre4eic.project.cwi.nl/gender/ 
+This repo contains the materials to start your own copy of the above server using docker. It is started by simply running 
 
-Our server is started by running 
 ```bash
 docker-compose up -d
 ``` 
 on the docker-compose.yml file contained in this repo. 
 
-Provided that you have docker and docker-compose set up on your machine, just running the above command should pull the docker images from docker hub and start the webserver at localhost:3052.
+Provided that you have docker and docker-compose set up on your machine, just running the above command should pull the docker images from docker hub and start the webserver at localhost:3052/gender/p/tables_and_figures_from_paper.swinb
 
 # Virtual machine image version
-[link to vm image to be added]
+A virtual machine image is available from https://doi.org/10.5281/zenodo.1237673. It is archived as an Open Virtual Appliance (.ova file) that packaging the vmdk disk image with Open Virtual Machine Format (ovf) metadata descriptor. The image is based on a standard Ubuntu 17.04 iso image, with checked-out versions of all relevant source code and data (see below) and installed version of the docker images (see above).
+
+On bootup, the docker images running in the guest will start an web server that is available from the host at 127.0.0.1:3052/gender/p/tables_and_figures_from_paper.swinb.
+
+The virtual machine can be accessed using the user name "vre" with password "vrevre".
 
 # Soure code version
 The repo contains git submodules linking to other git repositories with source code of other projects used in the paper, run
