@@ -39,11 +39,11 @@ to populated all source code submodules.
 The repos to rebuild the docker images used in the docker version are also included.
 
 # Data used
-The paper uses data from three RDF named graphs, stored in gzipped turtle file format. These files are included in the vre4eic/gender-demo-data docker image in the /data/toe directory: 
+The paper uses data from three RDF named graphs, stored in gzipped turtle file format. These files are included in the vre4eic/gender-demo-data docker image in the /data/toe directory and have the associated md5sum values: 
 ```
-/data/toe/Events_and_structure.ttl.gz
-/data/toe/MembersOfParliament_background.ttl.gz
-/data/toe/mep_wikidata.ttl.gz
+070ca73229931c9d0dd4cc1e4648ed75  Events_and_structure.ttl.gz
+3ab7d22806fca083de6b4fd748392913  MembersOfParliament_background.ttl.gz
+8717380919675bf732941f3aa03e3fcd  mep_wikidata.ttl.gz
 ```
 
 These file are also in the gender-demo-data git submodule, as part of the ./gender-demo-data/rdf.tgz gzipped tar file.
