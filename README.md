@@ -8,7 +8,7 @@ ACM Conference on Web Science, May 2018, Amsterdam, The Netherlands. doi:10.1145
 A copy for long time archival of the repo has been uploaded to https://doi.org/10.5281/zenodo.1232929
 
 # Online version
-The simplest way to rerun the code for the paper is to ignore this repo and just point your browser to http://vre4eic.project.cwi.nl/gender/p/tables_and_figures_from_paper.swinb
+The simplest way to rerun the code for the paper is to ignore this repo and just point your browser to https://vre4eic.project.cwi.nl/gender/p/tables_and_figures_from_paper.swinb
 
 This public swish web server contains all code in an executable notebook style interface. We will try to keep this server up and running. In case it is down anyway, below are several options to rebuild the server yourself.
 
