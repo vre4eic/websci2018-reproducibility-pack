@@ -46,7 +46,7 @@ The paper uses data from three RDF named graphs, stored in gzipped turtle file f
 8717380919675bf732941f3aa03e3fcd  mep_wikidata.ttl.gz
 ```
 
-These file are also in the gender-demo-data git submodule, as part of the ./gender-demo-data/rdf.tgz gzipped tar file.
+These file are also in the gender-demo-data git submodule, as part of the ./gender-demo-data/toe.tgz gzipped tar file.
 
 All three named graphs have been downloaded from the Talk of Europe project website, see http://www.talkofeurope.eu/ and http://linkedpolitics.ops.few.vu.nl/
 
