@@ -5,7 +5,9 @@ Hollink, Laura, Astrid van Aggelen, and Jacco van Ossenbruggen.
 [Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament](https://ir.cwi.nl/pub/27616). 
 ACM Conference on Web Science, May 2018, Amsterdam, The Netherlands. doi:10.1145/3201064.3201108
 
-A copy for long time archival of the repo has been uploaded to https://doi.org/10.5281/zenodo.1232929
+A copy for long time archival of the repo has been uploaded to https://doi.org/10.5281/zenodo.1232929.
+
+A [H2020 "FAIR" data management plan](data-management-plan.md) is included.
 
 # Online version
 The simplest way to rerun the code for the paper is to ignore this repo and just point your browser to https://vre4eic.project.cwi.nl/gender/p/tables_and_figures_from_paper.swinb
