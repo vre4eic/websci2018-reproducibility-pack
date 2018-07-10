@@ -13,3 +13,6 @@
 [submodule "rserve-sandbox"]
 	path = rserve-sandbox
 	url = https://github.com/vre4eic/rserve-sandbox.git
+[submodule "gender-toe-data"]
+	path = gender-toe-data
+	url = https://github.com/vre4eic/gender-toe-data
