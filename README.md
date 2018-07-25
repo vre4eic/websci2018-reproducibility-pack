@@ -3,7 +3,8 @@ This repository contains the materials to reproduce all figures, tables and othe
 
 Hollink, Laura, Astrid van Aggelen, and Jacco van Ossenbruggen. 
 [Using the Web of Data to Study Gender Differences in Online Knowledge Sources: the Case of the European Parliament](https://ir.cwi.nl/pub/27616). 
-ACM Conference on Web Science, May 2018, Amsterdam, The Netherlands. doi:10.1145/3201064.3201108
+ACM Conference on Web Science, May 2018, Amsterdam, The Netherlands. 
+[doi:10.1145/3201064.3201108](https://doi.org/10.1145/3201064.3201108)
 
 A copy for long time archival of the repo has been uploaded to https://doi.org/10.5281/zenodo.1232929.
 
@@ -20,9 +21,9 @@ This repo contains the materials to start your own copy of the above server usin
 ```bash
 docker-compose up -d
 ``` 
-on the docker-compose.yml file contained in this repo. 
+using the [docker-compose](docker-compose.yml) file contained in this repo. 
 
-Provided that you have docker and docker-compose set up on your machine, just running the above command should pull the docker images from docker hub and start the webserver at localhost:3052/gender/p/tables_and_figures_from_paper.swinb
+Provided that you have docker and docker-compose set up on your machine, just running the above command should pull the [images from docker hub](https://hub.docker.com/u/vre4eic/) and start the webserver at your own computer. To test, just point your web browser to http://localhost:3052/gender/p/tables_and_figures_from_paper.swinb
 
 # Virtual machine image version
 A virtual machine image is available from https://doi.org/10.5281/zenodo.1237673. It is archived as an Open Virtual Appliance (.ova file) that packaging the vmdk disk image with Open Virtual Machine Format (ovf) metadata descriptor. The image is based on a standard Ubuntu 17.04 iso image, with checked-out versions of all relevant source code and data (see below) and installed version of the docker images (see above).
