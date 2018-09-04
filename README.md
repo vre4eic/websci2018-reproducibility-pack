@@ -26,9 +26,9 @@ using the [docker-compose](docker-compose.yml) file contained in this repo.
 Provided that you have docker and docker-compose set up on your machine, just running the above command should pull the [images from docker hub](https://hub.docker.com/u/vre4eic/) and start the webserver at your own computer. To test, just point your web browser to http://localhost:3052/gender/p/tables_and_figures_from_paper.swinb
 
 # Virtual machine image version
-A virtual machine image is available from https://doi.org/10.5281/zenodo.1237673. It is archived as an Open Virtual Appliance (.ova file) that packaging the vmdk disk image with Open Virtual Machine Format (ovf) metadata descriptor. The image is based on a standard Ubuntu 17.04 iso image, with checked-out versions of all relevant source code and data (see below) and installed version of the docker images (see above).
+A virtual machine image is available from https://doi.org/10.5281/zenodo.1237673. It is archived as an Open Virtual Appliance (.ova file) that is packaging the vmdk disk image with an Open Virtual Machine Format (ovf) metadata descriptor. The image is based on a standard Ubuntu 17.04 iso image, with checked-out versions of all relevant source code and data (see below) and installed version of the docker images (see above).
 
-On bootup, the docker images running in the guest will start an web server that is available from the host at 127.0.0.1:3052/gender/p/tables_and_figures_from_paper.swinb.
+On bootup, the docker images running in the guest will start a web server that is available from the host at 127.0.0.1:3052/gender/p/tables_and_figures_from_paper.swinb.
 
 The virtual machine can be accessed using the user name "vre" with password "vrevre".
 
